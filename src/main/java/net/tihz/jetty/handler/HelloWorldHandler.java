@@ -1,4 +1,4 @@
-package handler;
+package net.tihz.jetty.handler;
 
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.handler.AbstractHandler;
@@ -8,9 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Created by Anthony on 22/06/2015.
- */
 public class HelloWorldHandler extends AbstractHandler {
 
     public void handle(String target, Request request, HttpServletRequest httpServletRequest, HttpServletResponse response) throws IOException, ServletException {
